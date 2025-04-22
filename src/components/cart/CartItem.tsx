@@ -18,21 +18,21 @@ interface CartItemProps {
 
 const CartItem = ({ item, onRemove }: CartItemProps) => {
   return (
-    <div className="flex gap-4 bg-white/50 p-3 rounded-premium border border-gray-100">
-      <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0">
+    <div className="flex gap-4 bg-white p-3 rounded-premium border border-pehnawa-blue/20 shadow-sm">
+      <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0 bg-pehnawa-blue/10">
         <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
       </div>
       <div className="flex-1">
-        <h3 className="font-medium">{item.name}</h3>
-        <div className="text-sm text-gray-500 mt-1">
+        <h3 className="font-semibold text-pehnawa-blue">{item.name}</h3>
+        <div className="text-sm text-pehnawa-green mt-1 space-y-1">
           <p>Size: {item.size}</p>
           <p>Duration: {item.duration}</p>
         </div>
         <div className="flex justify-between items-center mt-2">
-          <p className="font-medium">₹{item.price}</p>
+          <p className="font-medium text-pehnawa-terracotta">₹{item.price}</p>
           <button 
             onClick={() => onRemove(item.id)}
-            className="text-gray-400 hover:text-red-500 transition-colors"
+            className="text-pehnawa-blue hover:text-pehnawa-terracotta transition-colors"
           >
             <Trash2 size={16} />
           </button>

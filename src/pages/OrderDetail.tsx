@@ -138,7 +138,7 @@ const OrderDetail = () => {
   };
 
   const formatAmount = (amount: number) => {
-    return `₹${(amount / 100).toFixed(2)}`;
+    return `₹${amount}`;
   };
 
   const getDeliveryStage = () => {

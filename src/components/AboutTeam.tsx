@@ -13,25 +13,25 @@ const teamMembers: TeamMember[] = [
     name: "KUNAL RATHOD",
     role: "Co-Founder",
     bio: "With over 10 years in fashion retail, Kunal's vision to make designer clothing accessible to everyone led to the creation of Pehnawa. Her expertise in customer experience and sustainable fashion drives our core values.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+    image: "/images/kunal.jpg"
   },
   {
     name: "WAHAB SHAIKH",
     role: "Co-Founder",
     bio: "A fashion designer by training, Wahab oversees our curation process and ensures that every piece in our collection meets our high standards for quality, style, and versatility.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    image: "/images/wahab.jpg"
   },
   {
     name: "JAYESH WAKODE",
     role: "Co-Founder",
     bio: "Jayesh brings his background in logistics and supply chain management to ensure Pehnawa delivers a seamless rental experience. His passion for technology and efficiency has revolutionized our operations.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    image: "/images/jayesh.jpg"
   },
   {
     name: "HEMAKSHI SURYAVANSHI",
     role: "Co-Founder",
     bio: "A fashion designer by training, Hemakshi oversees our curation process and ensures that every piece in our collection meets our high standards for quality, style, and versatility.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    image: "/images/hemakshi.jpg"
   }
 ];
 

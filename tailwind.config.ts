@@ -1,5 +1,5 @@
-
 import type { Config } from "tailwindcss";
+import animatePlugin from "tailwindcss-animate"; // ✅ use ESM-style import
 
 export default {
   darkMode: ["class"],
@@ -9,7 +9,6 @@ export default {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
@@ -23,12 +22,11 @@ export default {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
-        // Darker pastel color palette with more vibrant colors
         pehnawa: {
-          cream: '#C4C3CB',  // Darker soft gray-blue
-          terracotta: '#E8835F',  // Darker soft peach
-          green: '#6F96CF',  // Darker soft blue
-          blue: '#9D85D6'    // Darker soft purple
+          cream: '#C4C3CB',
+          terracotta: '#E8835F',
+          green: '#6F96CF',
+          blue: '#7A5FFF', // vibrant, still stylish and brand-safe
         }
       },
       borderRadius: {
@@ -36,5 +34,5 @@ export default {
       }
     }
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animatePlugin], // ✅ now clean and ESLint-compliant
 } satisfies Config;

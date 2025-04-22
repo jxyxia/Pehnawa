@@ -103,36 +103,36 @@ const Wishlist = () => {
       </SheetTrigger>
       <SheetContent className="w-full sm:max-w-md overflow-y-auto">
         <SheetHeader>
-          <SheetTitle className="flex items-center">
+          <SheetTitle className="flex items-center text-pehnawa-blue">
             <Heart className="mr-2 h-5 w-5" />
             Your Wishlist
           </SheetTitle>
-          <SheetDescription>
+          <SheetDescription className="text-pehnawa-blue">
             {wishlistItems.length === 0 ? "Your wishlist is empty" : `${wishlistItems.length} item(s) in your wishlist`}
           </SheetDescription>
         </SheetHeader>
 
         <div className="mt-6 space-y-4">
           {wishlistItems.map((item) => (
-            <div key={item.id} className="flex gap-4 bg-white/50 p-3 rounded-premium border border-gray-100">
-              <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0">
+            <div key={item.id} className="flex gap-4 bg-white p-3 rounded-premium border border-pehnawa-blue/20 shadow-sm">
+              <div className="w-20 h-20 rounded-md overflow-hidden flex-shrink-0 bg-pehnawa-blue/10">
                 <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
-                <h3 className="font-medium">{item.name}</h3>
-                <p className="text-sm text-gray-500 mt-1">₹{item.price}</p>
+                <h3 className="font-semibold text-pehnawa-blue">{item.name}</h3>
+                <p className="text-sm text-pehnawa-green mt-1 font-medium">₹{item.price}</p>
                 <div className="flex justify-between items-center mt-2">
                   <Button 
                     variant="outline" 
                     size="sm"
                     onClick={() => addToCart(item.id, item)}
-                    className="text-xs h-8"
+                    className="text-xs h-8 border-pehnawa-blue text-pehnawa-blue hover:bg-pehnawa-blue/10"
                   >
                     <ShoppingBag className="h-3 w-3 mr-1" /> Add to Cart
                   </Button>
                   <button 
                     onClick={() => removeFromWishlist(item.id)}
-                    className="text-gray-400 hover:text-red-500 transition-colors"
+                    className="text-pehnawa-blue hover:text-pehnawa-terracotta transition-colors"
                   >
                     <Trash2 size={16} />
                   </button>
@@ -143,9 +143,9 @@ const Wishlist = () => {
 
           {wishlistItems.length === 0 && (
             <div className="flex flex-col items-center justify-center py-12 text-center">
-              <Heart className="h-12 w-12 text-gray-300 mb-4" />
-              <h3 className="text-lg font-medium text-gray-900">Your wishlist is empty</h3>
-              <p className="text-gray-500 mt-2">Save items you love for later</p>
+              <Heart className="h-12 w-12 text-pehnawa-blue mb-4" />
+              <h3 className="text-lg font-medium text-pehnawa-blue">Your wishlist is empty</h3>
+              <p className="text-pehnawa-green mt-2">Save items you love for later</p>
             </div>
           )}
         </div>
