@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🧵 Pehnawa
 
 **Pehnawa** is a modern web application designed with a focus on style, performance, and scalability. Built using [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [TypeScript](https://www.typescriptlang.org/), it aims to offer a smooth frontend developer experience, along with potential backend support via Supabase.
