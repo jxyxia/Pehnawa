@@ -1,4 +1,3 @@
-cat << EOF > README.md
 # 🧵 Pehnawa
 
 **Pehnawa** is a modern web application designed with a focus on style, performance, and scalability. Built using [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [TypeScript](https://www.typescriptlang.org/), it aims to offer a smooth frontend developer experience, along with potential backend support via Supabase.
@@ -17,23 +16,7 @@ cat << EOF > README.md
 
 - **Package Manager:**
   - [Bun](https://bun.sh/) - Super-fast JavaScript runtime & bundler
-
-## 📁 Project Structure
-
-\`\`\`bash
-├── public/                # Static assets
-├── src/                   # Main application code
-├── supabase/              # Supabase-related setup
-├── .vscode/               # Editor settings (optional)
-├── components.json        # UI component definitions
-├── tailwind.config.ts     # Tailwind CSS config
-├── postcss.config.js      # PostCSS config
-├── vite.config.ts         # Vite config
-├── tsconfig*.json         # TypeScript configs
-├── package.json           # NPM dependencies
-├── bun.lockb              # Bun lock file
-└── README.md              # You're here!
-\`\`\`
+  - 
 
 ## 📦 Installation
 
@@ -77,4 +60,3 @@ Crafted with ❤️ by:
 - Kunal  
 - Wahab  
 - Hemakshi
-EOF
