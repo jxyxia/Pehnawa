@@ -77,4 +77,3 @@ Crafted with ❤️ by:
 - Kunal  
 - Wahab  
 - Hemakshi
-EOF
