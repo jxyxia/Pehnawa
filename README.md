@@ -34,6 +34,7 @@
 └── README.md              # You're here!
 \`\`\`
 
+
 ## 📦 Installation
 
 Make sure you have **Bun** installed. If not, you can [install it here](https://bun.sh/).
